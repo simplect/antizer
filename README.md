@@ -34,7 +34,7 @@ All the Ant Design components should be fully functional and production-ready. I
 To use Antizer, add the following to your project.clj:
 
 ```clojure
-[antizer "3.20.6-0"]
+[net.ofnir/antizer "3.20.6-0"]
 ```
 
 You would also need to add the ClojureScript React library that you will be using.
@@ -59,7 +59,7 @@ It is also necessary to include the relevant Ant Design CSS stylesheet in your H
 
 where `${antd_version}` must be the same antd library version as the one that Antizer is being linked to.
 
-2. Alternatively, the CSS sheetsheet can be loaded from either of the following classpaths. This can be done via [Ring](https://github.com/ring-clojure/ring) library's [wrap-resource](https://ring-clojure.github.io/ring/ring.middleware.resource.html) function:
+2. Alternatively, the CSS stylesheet can be loaded from either of the following classpaths. This can be done via [Ring](https://github.com/ring-clojure/ring) library's [wrap-resource](https://ring-clojure.github.io/ring/ring.middleware.resource.html) function:
 
 * `cljsjs/antd/development/antd.inc.css`
 * `cljsjs/antd/production/antd.min.inc.css`
@@ -114,16 +114,36 @@ After compilation, open up the respective HTML page in the `examples/resources` 
 
 ### 3.20.6-0
 * Updated antd library to [3.20.6](https://ant.design/changelog#3.20.6).
+* Added component `Result`
 
 ### 3.19.8-0
 * Updated antd library to [3.19.8](https://ant.design/changelog#3.19.8).
+* Added component `Comment`
+* Added component `ConfigProvider`
+* Added component `Descriptions`
+* Added component `Descriptions.Item`
+* Added component `Empty`
+* Added component `InputNumber`
+* Added component `Mentions`
+* Added component `PageHeader`
+* Added component `Skeleton`
+* Added component `Statistic`
+* Added component `TimePicker`
+* Added component `Tree.DirectoryTree`
+* Added component `Typography`
+* Added component `Typography.Paragraph`
+* Added component `Typography.Text`
+* Added component `Typography.Title`
+* Added component `Upload`
+* Added component `Upload])`
+* Added component `Upload.Dragger`
 
 ### 0.3.1
 * Updated antd library to [3.8.0](https://ant.design/changelog#3.8.0).
 * Added documentation on loading CSS files. [#11](https://github.com/priornix/antizer/issues/11)
 * Added Card.Meta example.
 * Fixed Form example.
-* Minor fomatting changes to docstring.
+* Minor formatting changes to docstring.
 
 ### 0.3.0
 * Updated antd library to [3.7.1](https://ant.design/changelog#3.7.1). [#16](https://github.com/priornix/antizer/pull/16) thx [@sctianwei](https://github.com/sctianwei), [@piotr-yuxuan](https://github.com/piotr-yuxuan)
@@ -158,6 +178,7 @@ Thanks to Ant Design, [cljsjs/antd](https://github.com/cljsjs/packages/tree/mast
 
 ## License
 
+Copyright © 2019 Christoph Frick ofnir.net
 Copyright © 2017 Michael Lim
 
 Licensed under Eclipse Public License (see LICENSE).

@@ -1,6 +1,6 @@
-(defproject antizer "3.20.6-0"
+(defproject net.ofnir/antizer "3.20.6-0"
   :description "Antizer"
-  :url "https://github.com/priornix/antizer"
+  :url "https://github.com/christoph-frick/antizer"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.10.1"]
