@@ -1,5 +1,7 @@
 # antizer
 
+[![Clojars Project](https://img.shields.io/clojars/v/net.ofnir/antizer.svg)](https://clojars.org/net.ofnir/antizer)
+
 Antizer is a ClojureScript library implementing [Ant Design](https://ant.design/) React components for [Reagent](https://github.com/reagent-project/reagent) and [Rum](https://github.com/tonsky/rum).
 
 Ant Design is an enterprise-class UI design language and React-based implementation with the following features:
