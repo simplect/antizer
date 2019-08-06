@@ -184,7 +184,8 @@ Thanks to Ant Design, [cljsjs/antd](https://github.com/cljsjs/packages/tree/mast
 
 ## License
 
-Copyright © 2019 Christoph Frick ofnir.net
 Copyright © 2017 Michael Lim
+
+Copyright © 2019 Christoph Frick ofnir.net
 
 Licensed under Eclipse Public License (see LICENSE).
