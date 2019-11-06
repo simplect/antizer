@@ -1,6 +1,16 @@
-# antizer
+# net.ofnir/antizer
 
 [![Clojars Project](https://img.shields.io/clojars/v/net.ofnir/antizer.svg)](https://clojars.org/net.ofnir/antizer)
+
+## Disclaimer
+
+This is a fork of [antizer](https://github.com/priornix/antizer), which
+sadly seems abandoned.  This fork is maintained as far as it concerns
+updating the antd versions and adding new upstream components, but all
+the nice things like generated docs and examples are stripped out.  See
+the original project for that.
+
+## What is antizer
 
 Antizer is a ClojureScript library implementing [Ant Design](https://ant.design/) React components for [Reagent](https://github.com/reagent-project/reagent) and [Rum](https://github.com/tonsky/rum).
 
@@ -9,27 +19,6 @@ Ant Design is an enterprise-class UI design language and React-based implementat
 * An enterprise-class UI design language for web applications.
 * A set of high-quality React components out of the box.
 * Extensive API documentation and examples.
-
-## Resources
-
-* [Reagent Demo](https://priornix.github.io/antizer/latest/examples/reagent.html)
-
-* [Rum Demo](https://priornix.github.io/antizer/latest/examples/rum.html)
-
-* [Antizer Documentation](https://priornix.github.io/antizer/latest/)
-
-* [API Documentation](https://priornix.github.io/antizer/latest/api/)
-
-* [Ant Design Component Documentation](https://ant.design/docs/react/introduce)
-
-## Status
-
-All the Ant Design components should be fully functional and production-ready. If you discover any missing or invalid components, please file a ticket.
-
-### Who's Using Antizer
-
-* [Gooreplacer](https://github.com/jiacai2050/gooreplacer/blob/master/README-en.md)
-* [History Master](https://github.com/jiacai2050/history-master)
 
 ## Usage
 
@@ -95,98 +84,6 @@ For Rum:
 (defn init! []
   (rum/mount (click-me) (.-body js/document)))
 ```
-
-## Examples
-
-To compile the examples:
-
-```bash
-lein with-profile +examples cljsbuild once
-```
-
-To compile the examples and enable hot reloading with figwheel:
-
-```bash
-lein with-profile +examples-dev figwheel
-```
-
-After compilation, open up the respective HTML page in the `examples/resources` folder in your browser.
-
-## Changes
-
-### 3.23.4-0
-* Updated antd library to [3.23.4](https://ant.design/changelog#3.23.4).
-
-### 3.22.0-0
-* Updated antd library to [3.22.0](https://ant.design/changelog#3.22.0).
-
-### 3.21.1-0
-* Updated antd library to [3.21.1](https://ant.design/changelog#3.21.1).
-* Added component `Separator`
-
-### 3.20.6-0
-* Updated antd library to [3.20.6](https://ant.design/changelog#3.20.6).
-* Added component `Result`
-
-### 3.19.8-0
-* Updated antd library to [3.19.8](https://ant.design/changelog#3.19.8).
-* Added component `Comment`
-* Added component `ConfigProvider`
-* Added component `Descriptions`
-* Added component `Descriptions.Item`
-* Added component `Empty`
-* Added component `InputNumber`
-* Added component `Mentions`
-* Added component `PageHeader`
-* Added component `Skeleton`
-* Added component `Statistic`
-* Added component `TimePicker`
-* Added component `Tree.DirectoryTree`
-* Added component `Typography`
-* Added component `Typography.Paragraph`
-* Added component `Typography.Text`
-* Added component `Typography.Title`
-* Added component `Upload`
-* Added component `Upload])`
-* Added component `Upload.Dragger`
-
-### 0.3.1
-* Updated antd library to [3.8.0](https://ant.design/changelog#3.8.0).
-* Added documentation on loading CSS files. [#11](https://github.com/priornix/antizer/issues/11)
-* Added Card.Meta example.
-* Fixed Form example.
-* Minor formatting changes to docstring.
-
-### 0.3.0
-* Updated antd library to [3.7.1](https://ant.design/changelog#3.7.1). [#16](https://github.com/priornix/antizer/pull/16) thx [@sctianwei](https://github.com/sctianwei), [@piotr-yuxuan](https://github.com/piotr-yuxuan)
-* Fixed autocomplete example for empty string.
-* Fixed layout issue in examples.
-* Removed known issue for DatePicker and Calendar components.
-* Added props argument to reagent.create-form. [#12](https://github.com/priornix/antizer/pull/12)
-thx [@AndreasKlein](https://github.com/AndreasKlein)
-
-### 0.2.2
-* Updated antd library to [2.12.3](https://ant.design/changelog#2.12.3).
-* Fixed resource typo in README.md and documentation. [#1](https://github.com/priornix/antizer/issues/1) thx [@weavejester](https://github.com/weavejester)
-* Added missing component: Breadcrumb.Item. [#2](https://github.com/priornix/antizer/issues/2) thx [@weavejester](https://github.com/weavejester)
-* Added new component: Input.TextArea. [#3](https://github.com/priornix/antizer/issues/3) thx [@mbuczko](https://github.com/mbuczko)
-* Fixed layout issue in examples.
-* Added note on DatePicker and Calendar known issues.
-
-### 0.2.1
-* Updated antd library to [2.11.2](https://ant.design/changelog#2.11.2).
-* Updated instructions for CSS file inclusion.
-* Added Avatar component and example.
-* Fixed layout and CSS styles for examples.
-* Fixed cljsbuild settings for examples.
-
-## Known Issues
-
-None
-
-## Acknowledgement
-
-Thanks to Ant Design, [cljsjs/antd](https://github.com/cljsjs/packages/tree/master/antd), [Reagent](https://github.com/reagent-project/reagent), [Rum](https://github.com/tonsky/rum) and of course [ClojureScript](https://clojurescript.org), without which this project would not be possible.
 
 ## License
 

@@ -1,1 +1,0 @@
-Note that each locale to be used has to be included using `require` seperately.
