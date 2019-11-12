@@ -25,7 +25,7 @@ Ant Design is an enterprise-class UI design language and React-based implementat
 To use Antizer, add the following to your project.clj:
 
 ```clojure
-[net.ofnir/antizer "3.23.4-0"]
+[net.ofnir/antizer "3.24.3-0"]
 ```
 
 You would also need to add the ClojureScript React library that you will be using.

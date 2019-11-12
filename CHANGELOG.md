@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.24.3-0
+* Updated antd library to [3.24.3](https://ant.design/changelog#3.24.3).
+
 ## 3.23.4-0
 * Updated antd library to [3.23.4](https://ant.design/changelog#3.23.4).
 
