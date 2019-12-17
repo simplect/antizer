@@ -1,7 +1,5 @@
 # net.ofnir/antizer
 
-[![Clojars Project](https://img.shields.io/clojars/v/net.ofnir/antizer.svg)](https://clojars.org/net.ofnir/antizer)
-
 ## Disclaimer
 
 This is a fork of [antizer](https://github.com/priornix/antizer), which
@@ -24,21 +22,17 @@ Ant Design is an enterprise-class UI design language and React-based implementat
 
 To use Antizer, add the following to your project.clj:
 
-```clojure
-[net.ofnir/antizer "3.24.3-0"]
-```
+[![Clojars Project](https://img.shields.io/clojars/v/net.ofnir/antizer.svg)](https://clojars.org/net.ofnir/antizer)
 
 You would also need to add the ClojureScript React library that you will be using.
 
-For Reagent:
-```clojure
-[reagent "X.Y.Z"]
-```
+For **Reagent**:
 
-For Rum:
-```clojure
-[rum "X.Y.Z"]
-```
+[![Clojars Project](https://img.shields.io/clojars/v/reagent.svg)](https://clojars.org/reagent)
+
+For **Rum**:
+
+[![Clojars Project](https://img.shields.io/clojars/v/rum.svg)](https://clojars.org/rum)
 
 It is also necessary to include the relevant Ant Design CSS stylesheet in your HTML page. There are two ways that the CSS files can be included:
 
